@@ -11,6 +11,49 @@
 				"type": "constructor"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "i",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "j",
+						"type": "uint256"
+					}
+				],
+				"name": "add",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
+					}
+				],
+				"name": "addToX",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "number",
 				"outputs": [
@@ -48,6 +91,19 @@
 				],
 				"stateMutability": "pure",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "x",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -78,11 +134,11 @@
 	},
 	"sources": {
 		"contracts/State.sol": {
-			"keccak256": "0x8d4672a693304609654a6c8423d011d75d8e18a8a568b334271bcf5386f7f337",
+			"keccak256": "0x9b9f0ae2aa64fb2dd3aba8f1ba51530feef5e44592b136f242fa921c724377d0",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://eeda5d5bb0074a8b0a4c051e2a9e5e16c323225a949e7211eb06cda17212a5af",
-				"dweb:/ipfs/QmQzszY694SLTX6xkLevy8UjYbR8cZ4vitu9QVcAYkSSp8"
+				"bzz-raw://6fe2b1687716840ca7f8339f3ddb46731711e8e832747f4b2ca12bc08f17313f",
+				"dweb:/ipfs/QmbHUwWpfNpYKUkgWD4kQ2RSmsZoexvRaNSKwu57t6NGyd"
 			]
 		}
 	},

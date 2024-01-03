@@ -1,23 +1,18 @@
 {
 	"compiler": {
-		"version": "0.8.22+commit.4fc1097e"
+		"version": "0.8.23+commit.f704f362"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
 				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "getAge",
+				"name": "money",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "uint8",
 						"name": "",
-						"type": "uint256"
+						"type": "uint8"
 					}
 				],
 				"stateMutability": "view",
@@ -25,20 +20,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "getName",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "setAge",
+				"name": "setter",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -57,7 +39,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Identity.sol": "Identity"
+			"contracts/Overflow.sol": "Overflow"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -71,12 +53,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Identity.sol": {
-			"keccak256": "0x68aedd6d1c59dc36ecb12b4f3cf7d5f9c96c577138a319d6a6685cee8b26158d",
+		"contracts/Overflow.sol": {
+			"keccak256": "0x363bdbeec252314cd475a47d01f5f504a0b56df756bf83667498cb911320105c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3f6b2b2171a82d3a5b41790306d21c6fff6537a8ed82f0dd46cc9a85edcf84c2",
-				"dweb:/ipfs/QmW5UZ19FCu1Gd3Mu6PY5iwQyY1kLfKuygww3nZWjKUV4i"
+				"bzz-raw://b9cc610526ef339dd592d7da657379c30ad9606da54cee989efefdcc15f3bdc8",
+				"dweb:/ipfs/QmPbFyGvvRk65Cwkd689hPF8Qm84zt6sH59AucBbqKcv5v"
 			]
 		}
 	},
