@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "cx",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Visibility.sol": "C"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Visibility.sol": {
+			"keccak256": "0x63b699c99fc43048b29d5d473b96e85ea94afcbfacf0eb86d4256f1e6c2ebc37",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ca4039c214313d33ee38498e8272c2d9047ce326f90c3fb4b9b265726f7844bc",
+				"dweb:/ipfs/QmTdLTv4SprgxeRN3RBezxB7EYgEtaMz9znG1GtfXMdxnW"
+			]
+		}
+	},
+	"version": 1
+}

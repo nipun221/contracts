@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.23+commit.f704f362"
+		"version": "0.8.0+commit.c7dfd78e"
 	},
 	"language": "Solidity",
 	"output": {
@@ -71,6 +71,51 @@
 			},
 			{
 				"inputs": [],
+				"name": "dbyte",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "getElement",
+				"outputs": [
+					{
+						"internalType": "bytes1",
+						"name": "",
+						"type": "bytes1"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getLength",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "lengthArr",
 				"outputs": [
 					{
@@ -98,6 +143,13 @@
 					}
 				],
 				"name": "pushElement",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pushElementByte",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -156,7 +208,7 @@
 		"compilationTarget": {
 			"contracts/Array.sol": "Array"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "istanbul",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -169,11 +221,11 @@
 	},
 	"sources": {
 		"contracts/Array.sol": {
-			"keccak256": "0x4f7b37e1f05d401a519fe358339960e64d2d48ea4f7277b839c2364043c159f5",
+			"keccak256": "0x670591d0eb4eaadf717bf8f7542b392f182018601e11a00d1227876d002381bf",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://cf862f6a9227d858a4686b0f8ab5a89d3a98a86920431fb11baf8bac3006c341",
-				"dweb:/ipfs/QmbQapSwaek4gTvjgdgYt8DLGuUAArnA261HRHfyHsyjx2"
+				"bzz-raw://2116d3ed2d6b2399620f7a8301b6624b2f3fc07d9741d76035d19ff2d116939d",
+				"dweb:/ipfs/QmRbxtxVqZ8k3HofiPh3bRttxT9FVG9GaAgVzDwfv6bd6a"
 			]
 		}
 	},

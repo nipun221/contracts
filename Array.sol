@@ -27,6 +27,7 @@ contract Array {
 
     // Everything that will be stored in byte array will be in the form of hexadecimal digits
 
+    // These are fixed byte arrays
     bytes3 public b3;   // 3 bytes array
     bytes2 public b2;  // 2 bytes array
 
@@ -38,4 +39,18 @@ contract Array {
     // A Byte Array is a fixed-length array of 8-bit unsigned integers.
     // Bytes arrays cannot be modified
     // Padding of zero is added at the end if the value(by which array is initialized) does not occupy the entire space.
+
+    bytes public dbyte = "abc"; // This is dynamic byte array
+
+    function pushElementByte() public {
+        dbyte.push('d');
+    }
+
+    function getElement(uint index) public view returns(bytes1) {
+        return dbyte[index];
+    }
+
+    function getLength() public view returns(uint) {
+        return dbyte.length;
+    }
 }
